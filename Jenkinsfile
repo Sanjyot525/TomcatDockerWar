@@ -38,7 +38,7 @@ stage("Deploy to staging") {
      }
   post {
      always {
-          sh "echo 'I did It'"
+          sh "echo 'Yes,I did It'"
      }
 }
 }
